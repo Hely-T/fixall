@@ -1,0 +1,47 @@
+[
+    {
+        "threadID": "3678593095603716",
+        "shortcuts": [
+            {
+                "id": "nkZauivDIJ",
+                "input": ".",
+                "output": "@Trần Đức Toản"
+            },
+            {
+                "id": "yeNHNHVYJS",
+                "input": "@Đỗ Thu Trà",
+                "output": "@Đỗ Thu Trà"
+            }
+        ]
+    },
+    {
+        "threadID": "5273581919380671",
+        "shortcuts": [
+            {
+                "id": "pqgWtSXvSC",
+                "input": "hehe",
+                "output": "db"
+            },
+            {
+                "id": "PCHZymYVMI",
+                "input": "chào",
+                "output": "chào con cặc"
+            },
+            {
+                "id": "csDXoJMpvA",
+                "input": "@Nguyễn Văn Cường",
+                "output": "tag cái đầu cặc"
+            }
+        ]
+    },
+    {
+        "threadID": "4366370513401474",
+        "shortcuts": [
+            {
+                "id": "KBDWMpuwCx",
+                "input": "Hello",
+                "output": "Chào bạn ❤"
+            }
+        ]
+    }
+]
