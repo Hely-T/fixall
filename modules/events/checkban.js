@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: 'checkwarns',
+	name: 'checkban',
 	eventType: ['log:subscribe'],
 	version: '1.0.0',
 	credits: 'HelyT',
@@ -12,10 +12,10 @@ module.exports.run = async function({ api, event, client }) {
 		const fs = require('fs-extra');
 		let { threadID, messageID } = event;
 
-		if (!fs.existsSync(__dirname + `/../commands/cache/datawarn.json`)) return;
+		if (!fs.existsSync(__dirname + `/../commands/cache/bans.json`)) return;
 
 		var datawarn = JSON.parse(
-			fs.readFileSync(__dirname + `/../commands/cache/datawarn.json`)
+			fs.readFileSync(__dirname + `/../commands/cache/bans.json`)
 		);
 
 		var listban = datawarn.banned[threadID];
@@ -28,7 +28,7 @@ module.exports.run = async function({ api, event, client }) {
 				api.removeUserFromGroup(parseInt(info), threadID, e => {
 					if (e) return api.sendMessage(e, threadID);
 					api.sendMessage(
-						`[${info}] không thể tham gia nhóm vì đã bị ban từ trước`,
+						`◆━━━━━━━━━◆ BANNED ◆━━━━━━━━━◆\n\n[${info}] không thể tham gia nhóm vì đã bị ban từ trước`,
 						threadID
 					);
 				});

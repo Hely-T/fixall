@@ -68,5 +68,11 @@
             "vào thì đổi bd",
             "vào thì set biệt danh AXw( tên ) + năm sinh"
         ]
+    },
+    {
+        "threadID": "3174089666053913",
+        "listRule": [
+            "lệnh chuyển tiền có 3 lệnh +1: dùng .chuyentien +tag người muốn chuyển + số tiền … +2: .coin inc +tag người chuyển tiền + số tiền … .pay @tag người muốn chuyển (dùng pay sẽ bị tính phí 15% nhé)"
+        ]
     }
 ]
